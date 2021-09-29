@@ -1,3 +1,4 @@
+/*
 let age: number = 5;
 const name: string = 'John';
 
@@ -80,14 +81,6 @@ let square: Square = { color: 'black', sideHight: 40 };
 console.log(config, employees, bestEmployeeName, square);
 
 
-//перечисление:
-enum PizzaSize:  {
-    Small = "s",
-    Medium = "m",
-    Large = "l"
-}
-
-console.log(PizzaSize.Small)
 
 //функции:
 
@@ -102,16 +95,16 @@ addArrow(5, 3);
 
 const fn = (a: number, b: number, c: number, ...restParam: number[]) => { };
 fn(1, 2, 5, 7, 45, 90);
-//либо: 
+//либо:
 type Fn = (a: number, b: number, c: number, ...restParam: number[]) => number;
 
 const fnA: Fn = (a, b, c, restParam) => { return 55 };
 
 fnA(1, 2, 5, 7, 45, 90);
 
-//или 
+//или
 interface IFn {
- (a: number, b: number, c: number, ...restParam: number[]): number   
+ (a: number, b: number, c: number, ...restParam: number[]): number
 }
 const fnB: IFn = (a, b, c, restParam) => { return 55 };
 
@@ -227,7 +220,7 @@ console.log(logLength([2, 5, 9, 11, 524]));
 console.log(logLength(["sdfsgdrgdfgerge"]));
 //console.log(logLength(21))
 
-//либо 
+//либо
 interface ILength {
     length: number
 }
@@ -279,3 +272,4 @@ httpState.setState("request")
 
 
 export { }
+*/ 

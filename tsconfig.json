@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "public/taskTSlearning.ts", "public/01ts.ts"  ]
 }

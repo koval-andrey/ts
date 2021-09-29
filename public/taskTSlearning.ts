@@ -1,3 +1,4 @@
+/*
 let age: number = 5;
 const name: string = 'John';
 
@@ -80,14 +81,6 @@ let square: Square = { color: 'black', sideHight: 40 };
 console.log(config, employees, bestEmployeeName, square);
 
 
-//перечисление:
-/*enum PizzaSize:  {
-    Small = "s",
-    Medium = "m",
-    Large = "l"
-}
-
-console.log(PizzaSize.Small)*/
 
 //функции:
 
@@ -254,6 +247,8 @@ console.log(addFullName({
     lastName: "Koval"
 }));
 
+
+
 type TAnimationState = "playing" | "paused";
 type THttpState = "request" | "success" | "error";
 
@@ -277,5 +272,4 @@ httpState.setState("request")
 
 
 export { }
-
-
+*/
